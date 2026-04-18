@@ -1,0 +1,26 @@
+services:
+  database:
+    image: postgres:15-alpine
+    container_name: catering-db
+    environment:
+      POSTGRES_USER: catering_user
+      POSTGRES_PASSWORD: catering_password
+      POSTGRES_DB: catering_hub
+    ports:
+      - "5432:5432"
+    volumes:
+      - catering_data:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: catering-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@catering.com
+      PGADMIN_DEFAULT_PASSWORD: admin_password
+    ports:
+      - "8080:80"
+    depends_on:
+      - database
+
+volumes:
+  catering_data:
