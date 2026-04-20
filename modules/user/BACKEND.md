@@ -4,15 +4,15 @@ Fokus pada integritas transaksi, pendaftaran, dan pengelolaan riwayat pesanan.
 
 ## 1. Authentication & Profile (CRUD)
 - [ ] **Account Management**
-    - [ ] **Create**: Logic registrasi user baru.
-    - [ ] **Read**: Ambil data profil user saat ini.
+    - [x] **Create**: Logic registrasi user baru (Argon2 Hashing).
+    - [x] **Read**: Ambil data profil user saat ini (via SvelteKit Session).
     - [ ] **Update**: Edit data mandiri (Nama, No Telp, Password).
-- [ ] **Auth Session**
-    - [ ] Integrasi Auth.js / NextAuth (JWT Layer).
+- [x] **Auth Session**
+    - [x] Integrasi Auth.js (JWT Strategy) & Adapter.
 
 ## 2. Catalog & Inventory System
-- [ ] **Daily Catalog Resolver**
-    - [ ] Query menu `available_date = TODAY`.
+- [x] **Daily Catalog Resolver**
+    - [x] Query menu `available_date = TODAY`.
 - [ ] **Stock Monitoring**
     - [ ] API penghitung sisa stok real-time.
 

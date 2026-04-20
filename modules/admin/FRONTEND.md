@@ -1,9 +1,10 @@
 # Module [ADMIN / SUPER ADMIN] - Implementation Checklist
 
-## 1. Financial Analytics (`/admin/reports`)
-- [ ] **A. Laporan Laba Rugi Harian**
-    - [ ] **Frontend**: Grafik batang (Revenue per jam).
-    - [ ] **Backend**: Query Aggregasi laba per tanggal (Pokok + Pajak).
+## 1. Admin Control Hub (`/admin`)
+- [/] **A. Portal & Kerangka Dashboard**
+    - [x] **Frontend**: Layout Dasar Admin Control Center (Dark Theme).
+    - [x] **Frontend**: Sidebar & Navigation Staff Admin.
+    - [x] **Backend**: Proteksi Rute Admin (RBAC Middleware).
 - [ ] **B. Laporan Mingguan & Bulanan**
     - [ ] **Frontend**: Grafik garis tren mingguan/bulanan.
     - [ ] **Backend**: Query agregasi `SUM` per `week` / `month`.

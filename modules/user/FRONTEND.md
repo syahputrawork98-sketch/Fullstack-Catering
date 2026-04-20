@@ -1,19 +1,20 @@
 # Module [USER / CUSTOMER] - Implementation Checklist
 
 ## 1. Login & Registration
-- [ ] **A. Proses Pendaftaran**
-    - [ ] **Frontend**: Form input (Nama, No Telp, Pass).
-    - [ ] **Frontend**: Dropdown pilihan "Instansi vs Umum".
-    - [ ] **Backend**: Validasi duplikasi nomor telepon.
-    - [ ] **Backend**: Password Hashing (Keamanan).
-- [ ] **B. Proses Login**
-    - [ ] **Frontend**: Form login & Feedback error.
-    - [ ] **Backend**: JWT Session Management (NextAuth).
+- [x] **A. Proses Pendaftaran**
+    - [x] **Frontend**: Form input (Nama, No Telp, Pass) dengan Svelte 5 Runes.
+    - [x] **Frontend**: Dropdown pilihan "Instansi vs Umum".
+    - [x] **Backend**: Validasi duplikasi nomor telepon (Database unique constraint).
+    - [x] **Backend**: Password Hashing (Argon2id).
+- [x] **B. Proses Login**
+    - [x] **Frontend**: Form login & Feedback error.
+    - [x] **Backend**: JWT Session Management (Auth.js Strategy: JWT).
 
 ## 2. Dashboard Catalog (`/dashboard`)
-- [ ] **A. Katalog Menu Harian**
-    - [ ] **Frontend**: Skeleton loading (Tampilan saat data dimuat).
-    - [ ] **Frontend**: Card Menu (Foto, Nama, Info Stok).
+- [x] **A. Katalog Menu Harian**
+    - [x] **Frontend**: UI Framework & Grid System (High-Aesthetic).
+    - [x] **Frontend**: Sidebar Navigation (Orders, Menu, Profile) - *Ready*.
+    - [x] **Frontend**: Premium Card Menu (Foto, Nama, Info Stok).
     - [ ] **Backend**: Query menu `available_date = TODAY`.
 - [ ] **B. Sistem Keranjang**
     - [ ] **Frontend**: Modal Preview Keranjang.

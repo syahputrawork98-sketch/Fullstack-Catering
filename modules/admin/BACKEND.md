@@ -2,7 +2,11 @@
 
 Fokus pada agregasi laporan keuangan, manajemen kontrol user, dan sistem audit.
 
-## 1. User Management (CRUD)
+## 1. Staff Infrastructure (Core)
+- [x] **RBAC Security**: Implementasi middleware proteksi `/admin`.
+- [x] **Portal Gateway**: Struktur rute SvelteKit untuk Admin staff.
+
+## 2. User Management (CRUD)
 - [ ] **Account Control**
     - [ ] **Create**: Logic pembuatan akun Admin/CS baru.
     - [ ] **Read**: Fetching daftar semua user (dengan filter role/status).

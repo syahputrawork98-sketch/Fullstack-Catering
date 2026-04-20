@@ -6,8 +6,8 @@ Fokus pada penyediaan data landing page dan efisiensi akses publik.
 - [ ] **Config Retrieval**
     - [ ] Logic fetch data `branding` (Logo/Nama) dari JSON setting.
     - [ ] Logic fetch data `kontak_cs` untuk tombol WA.
-- [ ] **Data Pre-rendering (SSR)**
-    - [ ] Integrasi SvelteKit `load` function untuk data Landing Page.
+- [x] **Data Pre-rendering (SSR)**
+    - [x] Integrasi SvelteKit `load` function untuk data Landing Page & Session.
     - [ ] Setup caching headers untuk konten statis (Logo/Banner).
 
 ## 2. Global Services

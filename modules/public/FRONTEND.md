@@ -1,12 +1,12 @@
 # Module [PUBLIC] - Implementation Checklist
 
 ## 1. Home Page (`/`)
-- [ ] **A. Visual & Branding (Hero Section)**
-    - [ ] **Frontend**: Banner hero dengan animasi transisi gambar makanan.
-    - [ ] **Frontend**: Tipografi premium "Outfit/Inter".
-    - [ ] **Frontend**: Skema warna warm/gourmet.
+- [x] **A. Visual & Branding (Hero Section)**
+    - [x] **Frontend**: Banner hero dengan latar belakang makanan premium (Gourmet).
+    - [x] **Frontend**: Tipografi premium menggunakan font "Inter".
+    - [x] **Frontend**: Skema warna Vibrant Gourmet (Orange & Charcoal).
 - [ ] **B. Landing Info Sections**
-    - [ ] **Frontend**: Kartu "Layanan Kami" (Harian vs Event).
+    - [x] **Frontend**: Kartu "Mengapa Memilih Kami?" (Service quality).
     - [ ] **Frontend**: Komponen "Cara Pesan" (Stepper visual).
     - [ ] **Frontend**: Accordion FAQ (Pertanyaan Umum).
 

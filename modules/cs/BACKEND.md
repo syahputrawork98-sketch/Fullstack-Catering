@@ -2,9 +2,13 @@
 
 Fokus pada manajemen menu harian, pengolahan gambar, dan verifikasi operasional.
 
-## 1. Master Menu (CRUD)
-- [ ] **Data Management**
-    - [ ] **Create**: Simpan menu baru (Nama, Deskripsi, Harga Dasar).
+## 1. Staff Infrastructure (Core)
+- [x] **RBAC Security**: Implementasi middleware proteksi `/cs`.
+- [x] **Portal Gateway**: Struktur rute SvelteKit untuk CS staff.
+
+## 2. Master Menu (CRUD)
+- [x] **Data Management**
+    - [x] **Create**: Simpan menu baru (Nama, Deskripsi, Harga Dasar).
     - [ ] **Read**: Fetching daftar semua menu master.
     - [ ] **Update**: Edit informasi menu master.
     - [ ] **Delete**: Hapus menu master (dengan kaitan relasi).

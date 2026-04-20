@@ -29,11 +29,11 @@ Gunakan link di bawah ini untuk memantau detail pengerjaan Front-end dan Back-en
 
 ## 🗺️ Development Roadmap
 - [x] **Phase 1: Blueprint & Analysis** (Business Logic, Architecture, Database Schema).
-- [ ] **Phase 2: Project Initialization** (NextJS/SvelteKit Setup, Tailwind config, DB Migration).
-- [ ] **Phase 3: Auth & RBAC Implementation** (Login, Register Pending Instansi, Middleware).
-- [ ] **Phase 4: Core Features (Daily Menu & Ordering)** (Catalog, Cart, Atomic Stock).
-- [ ] **Phase 5: Operational & Reporting** (CS Dashboard, Image Optimization, Admin Finance Reports).
-- [ ] **Phase 6: Final Polish & Deployment** (PDF Struk, Audit Log, Production Build).
+- [x] **Phase 2: Project Initialization** (SvelteKit Setup, Tailwind 4, DB Sync & Docker).
+- [/] **Phase 3: Auth & RBAC Implementation** (Registration, Login Logic, JWT Strategy - *Enabled*).
+- [/] **Phase 4: UI Framework & Dashboards** (Premium Landing Page, User/Admin/CS Layouts).
+- [ ] **Phase 5: Core Features (Daily Menu & Ordering)** (Catalog, Cart, Atomic Stock).
+- [ ] **Phase 6: Operational & Reporting** (CS Dashboard, Admin Finance Reports).
 
 ---
 *Created with discipline by the Chief Architecture Governor.*

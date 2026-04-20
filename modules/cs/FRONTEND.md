@@ -1,21 +1,18 @@
 # Module [CUSTOMER SERVICE (CS)] - Implementation Checklist
 
 ## 1. Dashboard CS (`/cs`)
-- [ ] **A. Ringkasan Statistik (Daily Summary)**
-    - [ ] **Frontend**: Kartu indikator "Total Porsi Terpesan" hari ini.
-    - [ ] **Frontend**: Kartu indikator "Sisa Stok" (Visual progress bar).
-    - [ ] **Frontend**: Kartu indikator "Pesanan Belum Diverifikasi".
-    - [ ] **Backend**: Query `COUNT` pesanan aktif per tanggal hari ini.
-    - [ ] **Backend**: Logic pengurangan `Total Supply - Total Terpesan`.
-    - [ ] **Backend**: Real-time update data (SvelteKit invalidate/streaming).
+- [/] **A. Portal & Kerangka Dashboard**
+    - [x] **Frontend**: Layout Dasar CS Portal (Premium Theme).
+    - [x] **Frontend**: Sidebar & Navigation Staff.
+    - [x] **Backend**: Proteksi Rute Staff (RBAC Middleware).
 - [ ] **B. Notifikasi Pesanan Khusus**
     - [ ] **Frontend**: List "Urgent Requests" dari alur WhatsApp.
     - [ ] **Backend**: Penarikan data pesanan dengan flag `SPECIAL_ORDER`.
 
 ## 2. Daily Scheduler (`/cs/scheduler`)
 - [ ] **A. Form Input Menu Harian**
+    - [x] **Frontend**: Brand-Aligned Form (Nama, Harga, Kategori).
     - [ ] **Frontend**: Komponen Image Picker (Foto Menu).
-    - [ ] **Frontend**: Input Field Nama, Harga, dan Limit Stok.
     - [ ] **Frontend**: Field "Keterangan Tambahan CS".
     - [ ] **Backend**: Script Image Compression & Conversion (WebP).
     - [ ] **Backend**: Proses `UPSERT` data ke tabel DailySchedules.
