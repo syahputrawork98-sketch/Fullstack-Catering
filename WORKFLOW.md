@@ -26,16 +26,16 @@ Setiap fitur atau perubahan besar dalam proyek ini wajib melewati 7 tahap beriku
 - Menggunakan data mockup agar desain bisa langsung diuji secara visual.
 
 ### 5. 📝 [SYNC] Dokumentasi Tahap I (UI)
-- Memperbarui status di `modules/*/FRONTEND.md`.
-- Mencatatkan progres visual di `PROGRESS.md`.
+- Memperbarui status di `modules/*/KANBAN_FRONTEND.md`.
+- Mencatatkan progres visual di `PROGRESS_KANBAN_MASTER.md`.
 
 ### 6. ⚙️ [EXECUTION] Backend & Integrasi
 - Implementasi logika server, API, dan Database (Drizzle).
 - Menghubungkan data asli ke UI yang sudah dibangun di tahap 4.
 
 ### 7. 📝 [SYNC] Dokumentasi Tahap II (Final)
-- Memperbarui `modules/*/BACKEND.md`.
-- Memperbarui status final di `PROGRESS.md` dan Roadmap di `README.md`.
+- Memperbarui `modules/*/KANBAN_BACKEND.md`.
+- Memperbarui status final di `PROGRESS_KANBAN_MASTER.md` dan Roadmap di `README.md`.
 
 ---
 *Protokol ini adalah kesatuan hukum tertinggi dalam pengerjaan proyek Fullstack Catering.*

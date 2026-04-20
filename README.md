@@ -11,7 +11,11 @@ Sistem manajemen katering terintegrasi yang dirancang khusus untuk operasional k
 - **Authentication**: Auth.js (Integrated SvelteKit Auth).
 
 ## 📂 Project Structure
-Proyek ini terbagi menjadi 4 modul utama dengan hak akses terpisah (RBAC):
+Proyek ini menggunakan struktur **"Brain & Muscles"**:
+- **Brain (Root)**: Berisi dokumentasi, SOP, dan perencanaan (folder `modules/`, `docs/`).
+- **Muscles (`catering-fullstack/`)**: Berisi seluruh kode aplikasi SvelteKit (Internal Hub).
+
+Proyek terbagi menjadi 4 modul utama dengan hak akses terpisah (RBAC):
 1.  **Public**: Landing page & panduan pemesanan.
 2.  **User/Customer**: Katalog menu harian, Checkout, & Riwayat Pesanan.
 3.  **Customer Service (CS)**: Posting menu, verifikasi pembayaran, & bantuan input.
@@ -22,10 +26,10 @@ Gunakan link di bawah ini untuk memantau detail pengerjaan Front-end dan Back-en
 
 | Module | Frontend Checklist | Backend Checklist |
 | :--- | :--- | :--- |
-| **Public** | [FRONTEND.md](modules/public/FRONTEND.md) | [BACKEND.md](modules/public/BACKEND.md) |
-| **User** | [FRONTEND.md](modules/user/FRONTEND.md) | [BACKEND.md](modules/user/BACKEND.md) |
-| **CS** | [FRONTEND.md](modules/cs/FRONTEND.md) | [BACKEND.md](modules/cs/BACKEND.md) |
-| **Admin** | [FRONTEND.md](modules/admin/FRONTEND.md) | [BACKEND.md](modules/admin/BACKEND.md) |
+| **Public** | [KANBAN_FRONTEND.md](modules/public/KANBAN_FRONTEND.md) | [KANBAN_BACKEND.md](modules/public/KANBAN_BACKEND.md) |
+| **User** | [KANBAN_FRONTEND.md](modules/user/KANBAN_FRONTEND.md) | [KANBAN_BACKEND.md](modules/user/KANBAN_BACKEND.md) |
+| **CS** | [KANBAN_FRONTEND.md](modules/cs/KANBAN_FRONTEND.md) | [KANBAN_BACKEND.md](modules/cs/KANBAN_BACKEND.md) |
+| **Admin** | [KANBAN_FRONTEND.md](modules/admin/KANBAN_FRONTEND.md) | [KANBAN_BACKEND.md](modules/admin/KANBAN_BACKEND.md) |
 
 ## 🗺️ Development Roadmap
 - [x] **Phase 1: Blueprint & Analysis** (Business Logic, Architecture, Database Schema).

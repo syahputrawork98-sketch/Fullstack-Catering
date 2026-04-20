@@ -22,11 +22,12 @@ Berisi seluruh dokumentasi operasional dan standar prosedur (SOP).
 
 ### 2. The Muscles (Execution / Application)
 Folder tunggal untuk seluruh kode aplikasi.
-- **Folder Path**: `/app` (Dulu: `catering-frontend`)
+- **Folder Path**: `/app`
 - **Technology**: SvelteKit 5 (Full-stack).
 - **Database**: Drizzle ORM + PostgreSQL.
 
 ---
 
 ## 🚦 Instructions for AI (Future Context)
-Jika AI mendeteksi root repo ini, **selalu prioritaskan** folder `/app` sebagai pusat eksekusi kode. Jika folder `/app` belum ditemukan, maka folder `catering-frontend` adalah folder target sementara hingga user selesai merubah namanya.
+Jika AI mendeteksi root repo ini, **selalu prioritaskan** folder `/app` sebagai pusat eksekusi kode. 
+
