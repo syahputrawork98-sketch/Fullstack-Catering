@@ -42,12 +42,17 @@ Fokus: Integritas data transaksi, keamanan RBAC, dan sinkronisasi stok atomik.
     - [x] **Logic**: Subtract stock using `sql`${dailySchedules.currentStock} - ${quantity}``.
     - [x] **Integration**: Store `deliveryDate` (selected in catalog) into the `orders` record.
 
-### Phase 07.5: System Integrity (In Progress)
-- [ ] **Global Type Augmentation**
-    - [ ] Declare `Session` and `User` modules in `app.d.ts`.
-    - [ ] Explicitly type `role` and `status` to fix layout errors.
-- [ ] **Auth.js Logic Polish**
-    - [ ] Ensure `jwt` and `session` callbacks handle type-casted roles safely.
+### Phase 07.5: System Integrity (Done)
+- [x] **Global Type Augmentation**
+    - [x] Declare `Session` and `User` modules in `app.d.ts`.
+    - [x] Explicitly type `role` and `status` to fix layout errors.
+- [x] **Auth.js Logic Polish**
+    - [x] Ensure `jwt` and `session` callbacks handle type-casted roles safely.
+
+### Phase 07.6: UI Creative Design Audit (In Progress)
+- [ ] **User Portal Aesthetic Audit**
+    - [ ] Refine date scroller visuals and layout consistency.
+    - [ ] Audit Menu Cards for desktop larger screens.
 
 ### Phase 08: Puzzle Masa Depan (Planned)
 - [ ] **Point Ledger Logic**

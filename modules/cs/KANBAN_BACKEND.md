@@ -34,11 +34,15 @@ Fokus: Agregasi data operasional, mutasi status pesanan, dan manajemen master me
     - [x] **B2B Path**: Implement `createInstansi` action with Argon2 password hashing.
     - [x] **Status**: Default new Instansi accounts to `ACTIVE`.
 
-### Phase 07.5: Server Integrity (In Progress)
-- [ ] **RBAC Logic Hardening**
-    - [ ] Ensure `rbacHandle` covers the new `/cs` and `/admin` routes with strict type checks.
-- [ ] **B2B Payload Validation**
-    - [ ] Tighten input validation for manual Instansi creation.
+### Phase 07.5: Server Integrity (Done)
+- [x] **RBAC Logic Hardening**
+    - [x] Ensure `rbacHandle` covers the new `/cs` and `/admin` routes with strict type checks.
+- [x] **B2B Payload Validation**
+    - [x] Tighten input validation for manual Instansi creation.
+
+### Phase 07.6: UI Audit Enablement (In Progress)
+- [ ] **Auth Bypass for Audit**
+    - [ ] Create a dev-flag to temporarily disable `authHandle` and `rbacHandle` for UI walkthroughs.
 
 ### Phase 08: Puzzle Masa Depan (Planned)
 - [ ] **Real-time Push Notifications**

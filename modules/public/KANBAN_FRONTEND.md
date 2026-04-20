@@ -33,10 +33,15 @@ Fokus: Branding Gourmet Hub, penemuan menu (discovery), dan alur konversi pengun
 - [x] **Unified Footer**
     - [x] **Design**: Modern footer with links to social media and sitemap.
 
-### Phase 07.5: Content Integrity (In Progress)
-- [ ] **Navbar Type Alignment**
-    - [ ] Declare types for public navigation items.
-    - [ ] Resolve scroll-reactive state types.
+### Phase 07.5: Content Integrity (Done)
+- [x] **Navbar Type Alignment**
+    - [x] Declare types for public navigation items.
+    - [x] Resolve scroll-reactive state types.
+
+### Phase 07.6: UI Creative Design Audit (In Progress)
+- [ ] **Landing Page Visual Flow**
+    - [ ] Optimization for mobile hero section spacing.
+    - [ ] Audit "About Us" section for better readability.
 
 ### Phase 08: Puzzle Masa Depan (Planned)
 - [ ] **SEO Optimization**

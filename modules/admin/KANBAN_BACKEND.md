@@ -10,8 +10,9 @@ Fokus: Keamanan tingkat tinggi, agregasi finansial, dan otoritas sistem pusat.
 | :--- | :--- | :--- | :--- |
 | **03** | **Role Hierarchy** | ADMIN has access to all routes | [x] DONE |
 | **07** | **System Stats API** | Global SQL aggregation across tables | [x] DONE |
-| **07** | **B2B Manual Provisioning** | Manual INSERT with hashed passwords | [x] DONE |
-| **08** | **Profit Calculation** | grandTotal - menu cost aggregates | [ ] PLANNED |
+| **07.6** | **Audit Enablement** | Dev-flag Auth Bypass + Mock Sessions | [x] DONE |
+| **08** | **Financial Engine** | Revenue (Orders) vs Expenses (Belanja) | [x] DONE |
+| **08.1** | **Route Authority** | Users, Reports, & Settings Loaders | [x] DONE |
 
 ---
 
@@ -32,13 +33,29 @@ Fokus: Keamanan tingkat tinggi, agregasi finansial, dan otoritas sistem pusat.
     - [x] **Security**: Use `argon2` to hash before storage.
     - [x] **Integrity**: Set status to `ACTIVE` by default for staff-created accounts.
 
-### Phase 07.5: Otoritas & Policy (In Progress)
-- [ ] **Policy Augmentation**
-    - [ ] Update `Session` type declarations to include `Admin` specific fields.
-    - [ ] Tighten `rbacHandle` for financial data protection.
+### Phase 07.5: Otoritas & Policy (Done)
+- [x] **Policy Augmentation**
+    - [x] Update `Session` type declarations to include `Admin` specific fields.
+    - [x] Tighten `rbacHandle` for financial data protection.
 
-### Phase 08: Puzzle Masa Depan (Planned)
-- [ ] **Financial Reporting Engine**
-    - [ ] Scheduled monthly report generation logic.
-- [ ] **System Health Monitor**
-    - [ ] Real-time active session monitoring.
+### Phase 07.6: UI Audit Enablement (Done)
+- [x] **Context Injection for Audit**
+    - [x] **File**: `src/hooks.server.ts`.
+    - [x] **Logic**: Implement `AUDIT_MODE` with mock user session injection to prevent layout crashes.
+- [x] **Expense Logger API**
+    - [x] **Action**: `logExpense` handler to insert shopping data into `expenses` table.
+
+### Phase 08: Financial Mastery (Done)
+- [x] **Revenue & Expense Aggregation**
+    - [x] **Logic**: Aggregate `COALESCE(sum(grandTotal), 0)` and `COALESCE(sum(amount), 0)`.
+    - [x] **Security**: Use `inArray` to only count `PAID`, `SHIPPED`, or `COMPLETED` orders.
+- [x] **Sub-route Loaders (Phase 08.1)**
+    - [x] **Users**: Loader to fetch 100% of the user base for management.
+    - [x] **Reports**: Advanced financial aggregation for the analytics hub.
+    - [x] **Settings**: Static config loader for V1 metadata.
+
+### Phase 09: Puzzle Masa Depan (Planned)
+- [ ] **Data Backup & Restore**
+    - [ ] Logic to export/import the entire postgres database state.
+- [ ] **Audit Trail Viewer**
+    - [ ] View critical status changes and by whom they were edited.

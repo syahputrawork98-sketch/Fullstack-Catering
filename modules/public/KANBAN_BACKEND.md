@@ -28,9 +28,13 @@ Fokus: Optimalisasi SEO, pemuatan data publik, dan alur pendaftaran personal.
     - [x] **Query**: Mirror the dashboard date-resolver to fetch menus for anonymous visitors.
     - [x] **Perf**: Ensure query is lean (only necessary fields for the landing page).
 
-### Phase 07.5: Public Security (In Progress)
-- [ ] **Guest Path Hardening**
-    - [ ] Ensure public loaders for `/packages` and `/` are optimized and type-safe.
+### Phase 07.5: Public Security (Done)
+- [x] **Guest Path Hardening**
+    - [x] Ensure public loaders for `/packages` and `/` are optimized and type-safe.
+
+### Phase 07.6: UI Audit Enablement (In Progress)
+- [ ] **Global Layout Audit**
+    - [ ] Audit responsive behavior of the new `PublicNavbar`.
 
 ### Phase 08: Puzzle Masa Depan (Planned)
 - [ ] **SEO Meta Injection**

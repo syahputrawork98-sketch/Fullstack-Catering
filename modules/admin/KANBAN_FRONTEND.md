@@ -10,8 +10,9 @@ Fokus: Kontrol sistem tingkat tinggi, analisis finansial, dan manajemen tata kel
 | :--- | :--- | :--- | :--- |
 | **03** | **Admin Portal** | Unified Dark Sidebar + Master Hub | [x] DONE |
 | **07** | **System Control Hub** | Revenue Stats + Total Users Grid | [x] DONE |
-| **07** | **B2B Creator Hub** | Manual Instansi Registration Tool | [x] DONE |
-| **08** | **Financial Charts** | Revenue Trends (Bar/Line Chart) | [ ] PLANNED |
+| **07.6** | **Creative Audit** | Shopping Log Tool + Dark Mode Polish | [x] DONE |
+| **08** | **Financial Mastery** | Omzet vs Belanja Real-time Sync | [x] DONE |
+| **08.1** | **Master Routes** | Users, Reports, & Settings Hubs | [x] DONE |
 
 ---
 
@@ -33,13 +34,28 @@ Fokus: Kontrol sistem tingkat tinggi, analisis finansial, dan manajemen tata kel
     - [x] **UX**: Dedicated form for Admin to create Instansi accounts manually.
     - [x] **Logic**: Pass `INSTANSI` category as hidden/fixed input.
 
-### Phase 07.5: Dashboard Stability (In Progress)
-- [ ] **Data Safety Sweep**
-    - [ ] Implement null-safety for `user.name` and other dynamic fields.
-    - [ ] Resolve "Super Admin" layout type mismatch in sidebar.
+### Phase 07.5: Dashboard Stability (Done)
+- [x] **Data Safety Sweep**
+    - [x] Implement null-safety for `user.name` and other dynamic fields.
+    - [x] Resolve "Super Admin" layout type mismatch in sidebar.
 
-### Phase 08: Puzzle Masa Depan (Planned)
-- [ ] **Profit & Loss Dashboard**
-    - [ ] Aggregating raw menu costs against selling price.
+### Phase 07.6: UI Creative Design Audit (Done)
+- [x] **Admin High-Tech UI Sweep**
+    - [x] **Aesthetics**: Polish dark mode contrast settings using `zinc-950` backgrounds.
+    - [x] **UX**: Implemented **Log Belanja (Expense Tool)** with instant feedback.
+    - [x] **Visuals**: Better feedback for B2B Account Creation success.
+
+### Phase 08: Financial Mastery (Done)
+- [x] **Profit & Loss Implementation**
+    - [x] **Logic**: Aggregate Omzet (Revenue) vs Belanja (Expenses).
+    - [x] **UI**: Multi-card financial header in Admin Control Hub.
+- [x] **Expended Mastery Hubs (Phase 08.1)**
+    - [x] **User Management**: `src/routes/admin/users` restored with role/status toggle.
+    - [x] **Finance Hub**: `src/routes/admin/reports` restored with detailed logbooks.
+    - [x] **Settings Hub**: `src/routes/admin/settings` restored with system metadata.
+
+### Phase 09: Puzzle Masa Depan (Planned)
 - [ ] **Audit Trail Viewer**
     - [ ] View critical status changes and by whom they were edited.
+- [ ] **Data Export Engine**
+    - [ ] Export reports to Excel/PDF for accounting audit.

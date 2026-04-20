@@ -38,10 +38,15 @@ Fokus: Efisiensi operasional, manajemen stok harian, dan verifikasi pesanan real
     - [x] **Logic**: Add "HARI INI" badge if `order.deliveryDate === todayStr`.
     - [x] **Styling**: Highlight row with `bg-brand-primary/5` for today's delivery priority.
 
-### Phase 07.5: Dashboard Integrity (In Progress)
-- [ ] **Staff UI Type Sync**
-    - [ ] Resolve layout crashes by syncing `User.role` types.
-    - [ ] Audit staff-specific header components for null-safety.
+### Phase 07.5: Dashboard Integrity (Done)
+- [x] **Staff UI Type Sync**
+    - [x] Resolve layout crashes by syncing `User.role` types.
+    - [x] Audit staff-specific header components for null-safety.
+
+### Phase 07.6: UI Creative Design Audit (In Progress)
+- [ ] **Operation Hub Visual Polish**
+    - [ ] Audit stat cards for better contrast and micro-interactions.
+    - [ ] Improve empty-state styling for Orders and Schedules.
 
 ### Phase 08: Puzzle Masa Depan (Planned)
 - [ ] **Kitchen Display Mode**

@@ -15,7 +15,8 @@ Dokumen ini adalah Command Center pengerjaan fitur dengan resolusi **Micro-Atomi
 | **05** | **Core Menu** | [x] Premium Date Scroller | [x] Atomic Date-based Resolver | **DONE** |
 | **06** | **Ordering** | [x] Mobile Cart persistence | [x] Atomic Stock Sync Transaction | **DONE** |
 | **07** | **Operations** | [x] Unified Staff Sidebars | [x] B2B Manual Account Tool | **DONE** |
-| **07.5** | **Integrity** | [ ] Type Augmentation | [ ] Null-Safety Audit | **IN PROGRESS** |
+| **07.5** | **Integrity** | [x] Type Augmentation | [x] Null-Safety Audit | **DONE** |
+| **07.6** | **UI Design Audit** | [ ] CS Creative Polish | [ ] Admin Layout Audit | **IN PROGRESS** |
 | **08** | **Reporting** | [ ] Admin Finance UI | [ ] Profit Aggregation | **PLANNED** |
 
 ---
