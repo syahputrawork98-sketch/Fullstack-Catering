@@ -23,13 +23,16 @@ Dokumen ini mencatat progres pengerjaan fitur secara detail untuk memastikan sin
 - [x] **User Dashboard (`/dashboard`)**: Layout sidebar premium & stats cards.
 - [x] **Menu Catalog (`/dashboard/menu`)**: High-Aesthetic Catalog Ready (Grid, Search, Filter).
 - [x] **Checkout & Cart System**: End-to-End Functional.
-- [x] **Order Tracking UI**: Visual Stepper & Status Badges Ready.
-- [x] **CS Order Dashboard**: Staff management interface Ready.
+- [x] **Order Tracking System**: End-to-End Functional (Status Stepper & Loader).
+- [x] **CS Order Management**: End-to-End Functional (CRUD Status actions).
 
-## 🍱 4. Menu & Order Management (Next Phase: Real-time Data)
-- [ ] **Data Loader**: Query join `orders` + `items` + `menus`.
-- [ ] **Staff Actions**: Toggle status database dari dashboard CS.
+## 🍱 4. Menu & Order Management (Next Phase: Logistics & PDF)
 - [ ] **PDF**: Integrasi generator bon/struk PDF.
+- [ ] **Image**: Pipeline kompresi WebP untuk menu.
+- [ ] **Data Loader**: Query join `orders` + `items` + `menus`.
+- [x] **Project Structure Plan**: Separation of Brain (Docs) and Muscles (App).
+- [/] **Structural Consolidation**: Renaming `catering-frontend` to `app` (User Manual).
+- [ ] **Clean-Up**: Deletion of redundant `catering-backend`.
 - [ ] **Frontend**: Katalog menu harian dengan porsi dinamis.
 - [ ] **Cart System**: Manajemen pesanan di sisi user.
 

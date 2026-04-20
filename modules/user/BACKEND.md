@@ -26,5 +26,5 @@ Fokus pada integritas transaksi, pendaftaran, dan pengelolaan riwayat pesanan.
 ## 4. Document & History Service
 - [ ] **PDF Generator**
     - [ ] Logic pembuatan PDF struk digital.
-- [ ] **History & Search**
-    - [ ] **Read**: Query riwayat transaksi per `user_id`. (Termasuk filter tanggal).
+- [x] **History & Search**
+    - [x] **Read**: Query riwayat transaksi per `user_id` (Drizzle Relational).

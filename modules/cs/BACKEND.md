@@ -25,9 +25,9 @@ Fokus pada manajemen menu harian, pengolahan gambar, dan verifikasi operasional.
     - [ ] Logic Resize & Convert harian ke format WebP.
 
 ## 4. Order & Payment Monitor
-- [ ] **Operational Queries**
-    - [ ] Aggregasi pesanan harian: "Siapa pesan Apa".
-    - [ ] **Update**: Endpoint verifikasi `payment_status` dan `order_status`.
+- [x] **Operational Queries**
+    - [x] **Read**: Monitoring daftar semua pesanan (Drizzle Relational).
+    - [x] **Update**: Server Action verifikasi `order_status`.
 
 ## 5. Forced Account Creation
 - [ ] **CS Assisted Register**
