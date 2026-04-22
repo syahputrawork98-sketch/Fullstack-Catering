@@ -9,44 +9,36 @@ Fokus: Branding Gourmet Hub, penemuan menu (discovery), dan alur konversi pengun
 | Phase | Component / Feature | Atom Detail | Status |
 | :--- | :--- | :--- | :--- |
 | **01** | **Landing Page** | Premium Hero + Marketing Copy | [x] DONE |
-| **05** | **Public Showcase** | Menu Catalog on Home Page | [x] DONE |
-| **05** | **Date Scroller** | Global date selection for guests | [x] DONE |
-| **07** | **Gourmet Branding** | Global Sync to "Gourmet Hub" | [x] DONE |
-| **07** | **CTA Redirection** | "Login to Order" logic on cards | [x] DONE |
+| **03** | **Public Showcase** | Menu Catalog on Home Page | [x] DONE |
+| **03** | **Date Scroller** | Global date selection for guests | [x] DONE |
+| **08** | **Gourmet Branding** | Global Sync to "Gourmet Hub" | [x] DONE |
+| **08** | **CTA Redirection** | "Login to Order" logic on cards | [x] DONE |
 
 ---
 
 ## 📝 Micro-Atomic Technical Checklist (Learning Resource)
 
-### Phase 01 & 05: Public Discovery (Done)
+### Phase 01 & 03: Public Discovery (Done)
 - [x] **Premium Home Page Showcase**
     - [x] **File**: `src/routes/+page.svelte`.
-    - [x] **Integration**: Embed the **Live Menu Catalog** below the hero section.
-    - [x] **UX**: Implement Guest-mode overlays for `MenuCard` to encourage login.
+    - [x] **Integration**: Embed the **Live Menu Catalog**.
 - [x] **Date navigation for Guest**
-    - [x] **File**: `src/routes/+page.svelte`.
-    - [x] **Sync**: Reuse the **Premium Date Scroller** for public menu exploration.
+    - [x] Reuse the **Premium Date Scroller** for public exploration.
 
-### Phase 07: Visual Finalization (Done)
+### Phase 08: Visual Finalization (Done)
 - [x] **Total System Branding**
-    - [x] **Global**: Update all titles, metadata, and logos to **Gourmet Hub**.
+    - [x] Update all titles and logos to **Gourmet Hub**.
 - [x] **Unified Footer**
-    - [x] **Design**: Modern footer with links to social media and sitemap.
+    - [x] Modern footer with social links.
 
-### Phase 07.5: Content Integrity (Done)
+### Phase 08: Integrity & Design Audit (Done)
 - [x] **Navbar Type Alignment**
     - [x] Declare types for public navigation items.
-    - [x] Resolve scroll-reactive state types.
-
-### Phase 07.6: UI Creative Design Audit (Done)
 - [x] **Landing Page Visual Flow**
-    - [x] Optimization for mobile hero section spacing.
-    - [x] Audit "About Us" section for better readability.
-- [x] **Responsive Consistency**
-    - [x] Verified card layout on tablet and mobile viewports.
+    - [x] Optimization for mobile hero section.
 
-### Phase 08: Puzzle Masa Depan (Planned)
+### Phase 11: Puzzle Masa Depan (Planned)
 - [ ] **SEO Optimization**
-    - [ ] Dynamic JSON-LD for menu items to improve Google search visibility.
+    - [ ] Dynamic JSON-LD for menu items.
 - [ ] **Social Proof Section**
-    - [ ] Adding customer testimonials or "Most Ordered Today" stats.
+    - [ ] Adding customer testimonials or stats.

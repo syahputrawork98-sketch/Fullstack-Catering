@@ -8,38 +8,32 @@ Fokus: Optimalisasi SEO, pemuatan data publik, dan alur pendaftaran personal.
 
 | Phase | Logic / API Detail | Atom Detail | Status |
 | :--- | :--- | :--- | :--- |
-| **02** | **Public Registration** | Personal User INSERT logic | [x] DONE |
-| **05** | **Public Data Load** | Anonymous fetch for dailySchedules | [x] DONE |
-| **05** | **Sitemap Logic** | URL resolution for menus | [ ] PLANNED |
+| **09** | **Public Registration** | Personal User INSERT logic | [x] DONE |
+| **03** | **Public Data Load** | Anonymous fetch for dailySchedules | [x] DONE |
+| **11** | **Sitemap Logic** | URL resolution for menus | [ ] PLANNED |
 
 ---
 
 ## 📝 Micro-Atomic Technical Checklist (Learning Resource)
 
-### Phase 02: Onboarding (Done)
-- [x] **Individual Signup Handler**
-    - [x] **File**: `src/routes/register/+page.server.ts`.
-    - [x] **Mod**: Update to handle `PUBLIK` registration as the only public path.
-    - [x] **Security**: Ensure password hashing is applied even for retail users.
-
-### Phase 05: Public Showcase Logic (Done)
+### Phase 03: Public Showcase Logic (Done)
 - [x] **Guest Catalog Loader**
     - [x] **File**: `src/routes/+page.server.ts`.
-    - [x] **Query**: Mirror the dashboard date-resolver to fetch menus for anonymous visitors.
-    - [x] **Perf**: Ensure query is lean (only necessary fields for the landing page).
+    - [x] **Query**: Mirror the dashboard date-resolver.
 
-### Phase 07.5: Public Security (Done)
+### Phase 08: Integrity & Security (Done)
 - [x] **Guest Path Hardening**
-    - [x] Ensure public loaders for `/packages` and `/` are optimized and type-safe.
-
-### Phase 07.6: UI Audit Enablement (Done)
-- [x] **Global Layout Audit**
-    - [x] Audit responsive behavior of the new `PublicNavbar`.
+    - [x] Ensure public loaders are optimized and type-safe.
 - [x] **Mock Session Implementation**
-    - [x] Verified `AUDIT_MODE` persistence across landing pages.
+    - [x] Verified `AUDIT_MODE` persistence.
 
-### Phase 08: Puzzle Masa Depan (Planned)
+### Phase 09: Onboarding (Done)
+- [x] **Individual Signup Handler**
+    - [x] **File**: `src/routes/register/+page.server.ts`.
+    - [x] **Security**: Ensure password hashing is applied.
+
+### Phase 11: Puzzle Masa Depan (Planned)
 - [ ] **SEO Meta Injection**
     - [ ] Dynamic meta tag population based on today's specials.
 - [ ] **Lead Tracking**
-    - [ ] Simple logging to see which menus Guest users click most.
+    - [ ] Simple logging for guest user clicks.

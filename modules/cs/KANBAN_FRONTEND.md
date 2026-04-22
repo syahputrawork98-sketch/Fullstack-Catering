@@ -8,50 +8,40 @@ Fokus: Efisiensi operasional, manajemen stok harian, dan verifikasi pesanan real
 
 | Phase | Component / Feature | Atom Detail | Status |
 | :--- | :--- | :--- | :--- |
-| **03** | **CS Portal Hub** | Unified Sidebar + Stats Overview | [x] DONE |
-| **04** | **Order Monitor** | List with Status Badge (6 Types) | [x] DONE |
-| **07** | **Operation Dashboard** | Stats Cards (Orders, Low Stock) | [x] DONE |
-| **07** | **Logistics Highlight** | "Hari Ini" Badge for Today's Orders | [x] DONE |
-| **07** | **B2B Creator UI** | Modal/Form for manual Instansi creation | [x] DONE |
+| **05** | **CS Portal Hub** | Unified Sidebar + Stats Overview | [x] DONE |
+| **05** | **Order Monitor** | List with Status Badge (6 Types) | [x] DONE |
+| **05** | **Operation Dashboard** | Stats Cards (Orders, Low Stock) | [x] DONE |
+| **05** | **Logistics Highlight** | "Hari Ini" Badge for Today's Orders | [x] DONE |
+| **05** | **B2B Creator UI** | Modal/Form for manual Instansi creation | [x] DONE |
+| **08** | **Master Menu Management** | Center Modal Detail + Integrated Editor | [x] DONE |
 
 ---
 
 ## 📝 Micro-Atomic Technical Checklist (Learning Resource)
 
-### Phase 03 & 04: Order Management (Done)
+### Phase 05: Operation Center (Done)
 - [x] **Operation Hub Layout**
     - [x] **File**: `src/routes/cs/+layout.svelte`.
     - [x] **Branding**: Implement **Gourmet Hub** Staff Interface.
-    - [x] **Nav**: Create vertical sidebar for "Operation Hub", "Orders", "Schedule", and "Clients".
 - [x] **Live Order Monitor**
     - [x] **File**: `src/routes/cs/orders/+page.svelte`.
-    - [x] **Filter**: Implement `$derived` filtering by Search Query and Order Status.
-    - [x] **Action**: Use async `form.requestSubmit()` for seamless status updates.
-
-### Phase 07: Operation Center Refactor (Done)
 - [x] **Premium Stats Overview**
     - [x] **File**: `src/routes/cs/+page.svelte`.
-    - [x] **Component**: Design 4-card grid for critical operational metrics.
-    - [x] **UX**: Add `animate-pulse` on "Low Stock" indicators.
 - [x] **Logistics Timing UI**
-    - [x] **File**: `src/routes/cs/orders/+page.svelte`.
-    - [x] **Logic**: Add "HARI INI" badge if `order.deliveryDate === todayStr`.
-    - [x] **Styling**: Highlight row with `bg-brand-primary/5` for today's delivery priority.
+    - [x] Add "HARI INI" badge for today's deliveries.
 
-### Phase 07.5: Dashboard Integrity (Done)
+### Phase 08: Integrity & Security (Done)
 - [x] **Staff UI Type Sync**
     - [x] Resolve layout crashes by syncing `User.role` types.
-    - [x] Audit staff-specific header components for null-safety.
-
-### Phase 07.6: UI Creative Design Audit (Done)
-- [x] **Operation Hub Visual Polish**
-    - [x] Audit stat cards for better contrast and micro-interactions.
-    - [x] Improve empty-state styling for Orders and Schedules.
 - [x] **Stock & Client Dedicated Routes**
     - [x] Create `/cs/stock` for daily stock management.
     - [x] Create `/cs/clients` for B2B client management.
+- [x] **Master Menu Hub (Upgrade)**
+    - [x] **File**: `src/routes/cs/menu/+page.svelte`.
+    - [x] **Gourmet Modal**: Replaced Side Drawer with centered Premium Modal.
+    - [x] **Integrated Editor**: Live editing inside modal (Name, Price, Desc).
 
-### Phase 08: Puzzle Masa Depan (Planned)
+### Phase 11: Puzzle Masa Depan (Planned)
 - [ ] **Kitchen Display Mode**
     - [ ] Simple view of "Menu vs Qty" for today's prep.
 - [ ] **Delivery Fleet Monitor**
